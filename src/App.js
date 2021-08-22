@@ -32,7 +32,6 @@ export default function App() {
     })
       .then((response) => {
         console.log(response);
-        setIsPending(false);
       })
       .catch((err) => {
         console.log(err);
